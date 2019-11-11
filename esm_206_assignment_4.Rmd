@@ -1,0 +1,19 @@
+---
+title: "ESM 206 Assignment 4"
+author: "Andrew Salvador"
+date: "11/11/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+# Install packages
+library(tidyverse)
+library(janitor)
+# Read in the data
+lobster_data <- read_csv("lobster_abundance_sbc_lter.csv")
+```
+
